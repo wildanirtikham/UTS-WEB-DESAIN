@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   }
+   .container{
+       width: 100%;
+       height: auto;
+       background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(foto/latar.jpg);
+       background-position: center;
+       background-size: cover;
+       padding-left: 2%;
+       padding-right: 5%;
+       box-sizing: border-box;
+   }
+   .navbar{
+       height: 13%;
+       display: flex;
+       align-items: center;
+   }
+   .logo{
+       width: 80px;
+       cursor: pointer;
+   }
+   nav{
+       flex: 1;
+       text-align: right;
+   }
+   nav ul li{
+       list-style: none;
+       display: inline-block;
+       margin-left:60px;
+   }
+   nav ul li a{
+       text-decoration: none;
+       color: #47b127;
+       font-size: 10px;
+   }
+   .row{
+       display: flex;
+       height: 60%;
+       align-items: center;
+   }
+   .col{
+       flex-basis: 50%;
+   }
+   h1{
+       color: #eeff00;
+       font-size: 30px;
+   }
+   p{
+       color: #ffffff;
+       font-size: 12px;
+       line-height: 15px;
+   }
+   button{
+       width: 188px;
+       color: #ffffff;
+       font-size: 12px;
+       padding: 12px 0;
+       background: hsl(288, 87%, 46%);
+       border: 0;
+       border-radius: 20px;
+       outline: none;
+       margin-top: 30px;
+   }
+   .card{
+       width: 200px;
+       height: 230px;
+       display: inline-block;
+       border-radius: 10px;
+       padding: 15px 25px;
+       box-sizing: border-box;
+       cursor: pointer;
+       margin: 10px 15px;
+       background-position: center;
+       background-size: cover;
+       transition: ;transform :1;
+   }
+   .card1{
+       background-image: url(foto/pic-1.jpg);
+   }
+   .card2{
+       background-image: url(foto/pic-2.jpg);
+   }
+   .card3{
+       background-image: url(foto/pic-3.jpg);
+   }
+   .card4{
+       background-image: url(foto/pic-4.jpg);
+   }
+   .card:hover{
+   transform: translateY(-10px);
+   }
+h5{
+       color: #ffffff;
+       font-size: 15px;
+       line-height: 15px;
+
+   }
